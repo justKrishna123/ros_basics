@@ -37,6 +37,7 @@ First, make sure your Debian package index is up-to-date:
 `sudo apt update`
 Now, there are a couple of choices to install ros. Install the full package. This would include all the necesaary gui applications needed for development.
 Install using the command:
+
 `sudo apt install ros-noetic-desktop-full`
 
 Finally, you would need to source a script in every bash terminal. What this means is that in order for your terminal to understand ros commands, you need to add one line in the file that stores all the commands of the terminal.
