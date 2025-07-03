@@ -29,12 +29,15 @@ Moving on, set up the keys using the following command:
 
 Now, all the configurations before installing ROS are done, we can now proceed to install ROS.
 
-First, make sure your Debian package index is up-to-date:`sudo apt update`
+First, make sure your Debian package index is up-to-date:
+`sudo apt update`
 Now, there are a couple of choices to install ros. Install the full package. This would include all the necesaary gui applications needed for development.
 Install using the command:
 `sudo apt install ros-noetic-desktop-full`
 
 Finally, you would need to source a script in every bash terminal. What this means is that in order for your terminal to understand ros commands, you need to add one line in the file that stores all the commands of the terminal.
 Instead of sourcing the script in every terminal, you could add it in the bashrc and forget about it.
+
 `echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc`
+
 `source ~/.bashrc`
