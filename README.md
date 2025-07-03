@@ -17,6 +17,7 @@ Now, to install ROS, head on to the official [ROS Wiki](https://wiki.ros.org/noe
 After selecting ubuntu from the installations page, follow it's steps. I'm also attaching all the commands here.
 
 Update the sources list with the following command:
+
  ```sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'```
  
 Now, if you wish to know what sources list mean here, just chatgpt it. There will be many things in this document that are out of the scope of it but good to know.
