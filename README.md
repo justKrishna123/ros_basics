@@ -23,8 +23,11 @@ Update the sources list with the following command:
 Now, if you wish to know what sources list mean here, just chatgpt it. There will be many things in this document that are out of the scope of it but good to know.
   
 Install curl with the following command if not already installed:
+
 ```sudo apt install curl```
+
 Moving on, set up the keys using the following command:
+
 `curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | 
     sudo apt-key add`
 
