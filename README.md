@@ -99,18 +99,9 @@ With this, your workspace is ready to be used.
 
 The file structure would look something like this:
 
-```catkin_ws/ # Root directory of your workspace (name can vary)  
-├── src/ # Source space: contains all your ROS packages  
-│ ├── CMakeLists.txt -> /opt/ros/noetic/share/catkin/cmake/toplevel.cmake  
-│ └── <package1>/ # Your ROS package folders  
-│ ├── package.xml  
-│ └── CMakeLists.txt  
-│  
+```
+catkin_ws/ # Root directory of your workspace (name can vary)  
+├── src/ # Source space: contains all your ROS packages 
 ├── build/ # Build space: generated after building (contains build files)  
-│  
 ├── devel/ # Development space: built packages are linked here  
-│ ├── setup.bash # Source this to overlay workspace in current shell  
-│ └── ... # Other development environment files  
-│  
-└── install/ # Install space (only if using catkin_make install)  
-└── ... # Contains installed files for deployment```
+└── install/ # Install space (only if using catkin_make install)```
