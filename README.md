@@ -104,4 +104,13 @@ catkin_ws/ # Root directory of your workspace (name can vary)
 ├── src/ # Source space: contains all your ROS packages 
 ├── build/ # Build space: generated after building (contains build files)  
 ├── devel/ # Development space: built packages are linked here  
-└── install/ # Install space (only if using catkin_make install)```
+└── install/ # Install space (only if using catkin_make install)
+```
+
+After doing all this, there is one final step needed to be done in order to make the workspace functional. You need to source the setup.bash in the bashrc in order for the terminal to recognize the commands. In order to do that, use the following code:
+
+`echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc`
+
+`source ~/.bashrc`
+
+After this, your workspace is ready to go. Note that after you edit the workspace, you always need to use the catkin_make command before you start using the ROS Nodes.
