@@ -80,3 +80,23 @@ Now, you might have gotten a rough idea about how ros works and how to use it. O
 ### 1.3.2 Making a Catkin Workspace
 
 To make a workspace, let's first understand what is a workspace. A workspace is nothing but a convention of naming folders and storing programs in it that makes it easy for other users to read. It's basically like commenting in a program, which makes it structured.
+
+For ROS, we use a ***Catkin Workspace***. For now, you can think of catkin as a build system, which helps compile and manage all the rosnodes easily.
+
+To create a catkin workspace, run the following command in terminal in the home folder:
+
+`mkdir catkin_ws/`
+
+Then, go inside the folder by using:
+
+`cd catkin_ws/`
+
+Now, make(build) the workspace by
+
+`catkin_make`
+
+With this, your workspace is ready to be used.
+
+The file structure would look something like this:
+
+~/catkin_ws/ # The root folder (commonly named catkin_ws) ├── src/ # Source directory where all your ROS packages go ├── build/ # Created after building; contains build-related files └── devel/ # Created after building; contains setup files and executables
